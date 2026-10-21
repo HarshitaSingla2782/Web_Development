@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Element</title>
+</head>
+<body>
+    <h1>Audio Element</h1>
+    <p>
+        The HTML &lt;audio&gt; element embeds an audio file to the webpage. You can add an audio player inside a webpage using the &lt;audio&gt; element.<br/>
+        The &lt;audio&gt; element is used to enable the support of audio files within a web page. We can include multiple sources of audio; however, the browser will choose the most appropriate file automatically. Most of the attributes of &lt;video&gt; element is also compatible with the &lt;audio&gt; element. The most frequently used attributes of the HTML audio element are controls, autoplay, loop, muted, and src.
+        <br/><br/>
+        Below are some attributes used by &lt;audio&gt; element&lpar;<i>Attribute</i> &rarr;Description&rpar;<br/>
+        <i>autoplay</i> &rarr; It allows playing the audio automatically when the page is loaded.
+        <br/>
+        <i>controls</i> &rarr; It adds built- in audio controls for play, pause, and volume.
+        <br/>
+        <i>loop</i> &rarr; Specifies that the audio will restart automatically after it finishes.
+        <br/>
+        <i>muted</i> &rarr; The audio will be muted by default when the page is loaded.
+        <br/>
+        <i>preload</i> &rarr; Specifies how the audio should be preloaded by the browser.
+        <br/>
+        <i>src</i> &rarr; Specifies the path of the audio file.
+        <br/><br/>
+        Syntax- 
+        <pre>
+            &lt;audio&gt;
+                &lt;source src="URL"&gt;
+            &lt;/audio&gt;
+        </pre>
+        Example-<br/>
+        <code>
+            &lt;audio controls&gt;<br/>
+                &lt;source src="6.mp3" type="audio/mp3"/&gt;<br/>
+            &lt;/audio&gt;
+        </code>
+        <br/><br/>
+        Output-<br/>
+        <audio controls>
+            <source src="6.mp3" type="audio/mp3" />
+        </audio>
+    </p>
+</body>
+</html>

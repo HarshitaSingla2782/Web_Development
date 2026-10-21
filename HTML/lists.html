@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+</head>
+<body>
+    <h1>Lists</h1>
+    <p>
+      An HTML list organizes content into ordered or unordered format, makin information clear and easy to read. Lists organizes content using tags like &lt;ul&gt;, &lt;ol&gt; & &lt;li&gt;.
+      <br/><br/>
+      <b>Types of Lists</b><br/>
+      There are mainly three types of lists-<br/>
+
+      <!-- Ordered List -->
+      1. <b>Ordered List</b>: Ordered lists are used when the items need to follow a specific sequence. In an ordered list, all the list items are marked with numbers by default. An ordered list starts with the &lt;ol&gt; tag, and each list item begins with the &lt;li&gt; tag.
+      <br/>
+      Syntax-
+      <pre>
+        &lt;ol&gt;
+          &lt;li&gt;Item1&lt;/li&gt;
+          &lt;li&gt; Item2&lt;/li&gt;
+        &lt;/ol&gt; 
+      </pre>
+      Example-<br/>
+      <code>
+        &lt;ol&gt;<br/>
+          &lt;li&gt;Apple&lt;/li&gt;<br/>
+          &lt;li&gt;Mango&lt;/li&gt;<br/>
+          &lt;li&gt;Orange&lt;/li&gt;<br/>
+          &lt;li&gt;Pineapple&lt;/li&gt;<br/>
+        &lt;/ol&gt;
+      </code>
+      <br/><br/>
+      Output-
+    </p>
+    <ol>
+      <li>Apple</li>
+      <li>Mango</li>
+      <li>Orange</li>
+      <li>Pineapple</li>
+    </ol>
+
+    <p>
+      Attributes-<br/>
+      i. Reversed: It defines that order will be descending.<br/>
+      ol reversed attribute
+    </p>
+    <ol reversed>
+      <li>Pineapple</li>
+      <li>Orange</li>
+      <li>Mango</li>
+      <li>Apple</li>
+    </ol>
+    <p>
+      ii. Start: It defines from which number or alphabet the order will start.<br/>
+      ol start attribute
+    </p>
+    <ol start="12">
+      <li>Pineapple</li>
+      <li>Orange</li>
+      <li>Mango</li>
+      <li>Apple</li>
+    </ol>
+    <p>
+      iii. Type: It defines which type (1, A, a, I, and i) of the order you want in your list of numeric, alphabetic, or roman numbers.<br/>
+      ol type attribute
+    </p>
+    <ol type="a">
+      <li>Pineapple</li>
+      <li>Orange</li>
+      <li>Mango</li>
+      <li>Apple</li>
+    </ol>
+    
+    
+    <p>
+      <!-- Unordered List -->
+      2. <b>Unordered List</b>: Unordered lists display items as bulleted points where the order of items does not matter, using the &lt;ul&gt; and &lt;li&gt; tags. Unordered lists are ideal for scenarios where the sequence of items is not important. This list is also known as bulleted list. An unordered list starts with the &lt;ul&gt; tag, and each list item begins with the &lt;li&gt; tag.
+      <br/>
+      Syntax-
+      <pre>
+        &lt;ul&gt;
+          &lt;li&gt;Item1&lt;/li&gt;
+          &lt;li&gt;Item2&lt;/li&gt;
+        &lt;/ul&gt; 
+      </pre>
+      Example-<br/>
+      <code>
+        &lt;ul&gt;<br/>
+          &lt;li&gt;Home&lt;/li&gt;<br/>
+          &lt;li&gt;About Us&lt;/li&gt;<br/>
+          &lt;li&gt;Contact Info.&lt;/li&gt;<br/>
+        &lt;/ul&gt;
+      </code>
+      <br/><br/>
+      Output-
+    </p>
+    <ul>
+      <li>Home</li>
+      <li>About Us</li>
+      <li>Contact Info.</li>
+    </ul>
+    
+    <p>
+      Attributes-<br/>
+      i. Type: It specifies which kind of marker (disc, circle, and square) is used in the list.<br/>
+      ul type attribute with circle value
+    </p>
+    <ul type="circle">
+      <li>Holi</li>
+      <li>Diwali</li>
+      <li>Rakshabandhan</li>
+    </ul>
+
+  <p>ul type attribute with square value</p>
+  <ul type="square">
+    <li>Holi</li>
+    <li>Diwali</li>
+    <li>Rakshabandhan</li>
+  </ul>
+  
+  
+  <p>
+    <!-- Definition List -->
+    3. <b>Description List</b>: A description list is a list of terms, with a description of each term. These are useful for descriptions, glossaries, or any other key- value pairs of items. The &lt;dl&gt; tag defines the description list, the &lt;dt&gt; tag (description term) defines the term name, and &lt;dd&gt; tag (description details) describes each term.
+    <br/>
+    Syntax-
+    <pre>
+      &lt;dl&gt;
+        &lt;dt&gt;Item1&lt;/dt&gt;
+        &lt;dd&gt;Description of Item1&lt;/dd&gt;
+        &lt;dt&gt;Item2&lt;/dt&gt;
+        &lt;dd&gt;Description of Item2&lt;/dd&gt;
+      &lt;/dl&gt;
+    </pre>
+    Example-<br/>
+    <code>
+      &lt;dl&gt;<br/>
+        &lt;dt&gt;Beverages&lt;/dt&gt;<br/>
+        &lt;dd&gt;
+          A beverage is any liquid intended for human consumption other than water, primarily consumed for hydration, refreshment, or pleasure rather than a full meal replacement.
+        &lt;/dd&gt;<br/>
+        &lt;dt&gt;Toys&lt;/dt&gt;<br/>
+        &lt;dd&gt;
+          An object for a child to play with, typically a model or a miniature replica of something.
+        &lt;/dd&gt;<br/>
+      &lt;/dl&gt;
+    </code>
+    <br/><br/>
+    Output-
+    <dl>
+      <dt>Beverages</dt>
+      <dd>
+        A beverage is any liquid intended for human consumption other than water, primarily consumed for hydration, refreshment, or pleasure rather than a full meal replacement.
+      </dd>
+      <dt>Toys</dt>
+      <dd>
+        An object for a child to play with, typically a model or a miniature replica of something.
+      </dd>
+    </dl>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tables</h1>
+    <p>
+        HTML tables represent data, such as text, images, links, and other elements in a structural format with rows and columns. It allows clear presentation of data for comparison.
+        <br/>
+        They are useful for displaying schedules, price lists, product details, and more.
+        <br/>
+        HTML tables are built using tags like &lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, and &lt;td&gt;. Tables are created using &lt;table&gt; tag which defines the structure for organizing data in rows and columns within a web page. &lt;tr&gt; defines the table row containing individual cells. &lt;th&gt; defines table header cell that typically holds titles or headings (usually bold and centered). &lt;td&gt; defines a standard table data cell that holds actual content.  
+        <br/>
+        &lt;caption&gt; provides a title or description for the entire table. &lt;thead&gt; defines the header section of a table, often containing column labels. &lt;tbody&gt; represents main content area of a table, separating it from the header or footer. &lt;tfoot&gt; specifies the footer section of a table, typically holding the summaries, or totals.
+        <br/>
+        &lt;col&gt; defines attributes for table columns that can be applied to multiple columns simultaneously. &lt;col&gt; groups together a set of columns in a table to which you can apply formatting or properties collectively.
+    </p>
+    
+    <p>
+        Colspan attribute is used to make a cell span more than one column. It stretches one cell across multiple columns. 
+    </p>
+    <!-- Colspan in Table -->
+    <caption> Colspan in Table </caption> 
+    <table style="width: 80%"> 
+        <tr> 
+            <th colspan="2">Name</th> 
+            <!-- <th>Last Name</th> --> 
+            <th>Age</th> 
+        </tr> 
+        <tr>
+            <td>Harshita</td>
+            <td>Singla</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Garima</td>
+            <td>Goyal</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Tanu</td>
+            <td>Kansal</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Naman</td>
+            <td>Singla</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <p>
+        Rowspan attribute is used to make a cell span more than one row. It stretches one cell across multiple rows. 
+    </p>
+    <!-- Rowspan in Table --> 
+    <caption> Rowspan in Table </caption> 
+    <table style="width: 80%">
+      <tr>
+        <th rowspan="6">U.G Courses</th>
+        <td>BBA</td>
+      </tr>
+      <tr>
+        <td>BCA</td>
+      </tr>
+      <tr>
+        <td>LLB</td>
+      </tr>
+      <tr>
+        <td>BBA LLB.</td>
+      </tr>
+      <tr>
+        <td>B. Tech</td>
+      </tr>
+      <tr>
+        <td>B. Com</td>
+      </tr>
+    </table>
+
+    <p>
+      Syntax-<br/>
+      <code>
+        &lt;table&gt; Content... &lt;/table&gt;
+      </code>
+      <br/><br/>
+      Example-<br/>
+      <code>
+        &lt;table style="width: 80%;"&gt;<br/>
+          &lt;tr&gt;<br/>
+            &lt;th&gt;Student&lt;/th&gt;<br/>
+            &lt;th&gt;City&lt;/th&gt;<br/>
+          &lt;/tr&gt;<br/>
+          &lt;tr&gt;<br/>
+            &lt;td&gt;Garima&lt;/td&gt;<br/>
+            &lt;td&gt;Bombay&lt;/td&gt;<br/>
+          &lt;/tr&gt;<br/>
+          &lt;tr&gt;<br/>
+            &lt;td&gt;Harshita&lt;/td&gt;<br/>
+            &lt;td&gt;New Delhi&lt;/td&gt;<br/>
+          &lt;/tr&gt;<br/>
+          &lt;tr&gt;<br/>
+            &lt;td&gt;Tanu&lt;/td&gt;<br/>
+            &lt;td&gt;Banglore&lt;/td&gt;<br/>
+          &lt;/tr&gt;<br/>
+          &lt;tr&gt;<br/>
+            &lt;td&gt;Naman&lt;/td&gt;<br/>
+            &lt;td&gt;Chennai&lt;/td&gt;<br/>
+          &lt;/tr&gt;<br/>
+        &lt;/table&gt; 
+      </code>
+      <br/><br/>
+      Output-<br/>
+
+    </p>
+    <table style="width: 80%;">
+      <tr>
+        <th>Student</th>
+        <th>City</th>
+      </tr>
+      <tr>
+        <td>Garima</td>
+        <td>Bombay</td>
+      </tr>
+      <tr>
+        <td>Harshita</td>
+        <td>New Delhi</td>
+      </tr>
+      <tr>
+        <td>Tanu</td>
+        <td>Banglore</td>
+      </tr>
+      <tr>
+        <td>Naman</td>
+        <td>Chennai</td>
+      </tr>
+    </table> 
+
+    <br/>
+    <!-- Horizontal Table -->
+  <caption>Horizontal Table</caption>
+  <table style="width: 80%">
+    <tr>
+      <th>Student</th>
+      <th>City</th>
+    </tr>
+    <tr>
+      <td>Garima</td>
+      <td>Bombay</td>
+    </tr>
+    <tr>
+      <td>Harshita</td>
+      <td>New Delhi</td>
+    </tr>
+    <tr>
+      <td>Tanu</td>
+      <td>Banglore</td>
+    </tr>
+    <tr>
+      <td>Naman</td>
+      <td>Chennai</td>
+    </tr>
+  </table>
+  <br/>
+
+  <!-- Vertical Table -->
+  <caption>Vertical Table</caption>
+  <table style="width: 80%">
+    <tr>
+      <th>First Name</th>
+      <td>Harshita</td>
+      <td>Garima</td>
+      <td>Tanu</td>
+      <td>Naman</td>
+    </tr>
+    <tr>
+      <th>Last Name</th>
+      <td>Singla</td>
+      <td>Goyal</td>
+      <td>Kansal</td>
+      <td>Singla</td>
+    </tr>
+  </table>
+</body>
+</html>

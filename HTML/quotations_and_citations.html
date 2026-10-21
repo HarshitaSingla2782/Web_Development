@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotations & Citations</title>
+</head>
+<body>
+    <h1>Quotations & Citations</h1>
+    <p>
+        HTML quotations allow you to include and format quoted text within your web content. HTML provides tags such as &lt;blockquote&gt;, &lt;q&gt;, &lt;cite&gt;, &lt;abbr&gt;, &lt;address&gt;, and &lt;bdo&gt; to structure and style quotes.<br />
+        These quotation tags help maintain proper formatting and semantics, enhancing the presentation and meaning of quoted content on web pages.
+    </p>
+
+    <p>
+        <strong>Blockquote-</strong> The &lt;blockquote&gt; tag is to indicate long quotations. It should contain only block- level elements within it and not just plain text. It specifies a section quoted from another source and contains only block- level elements.<br /> We can also use the cite attribute inside the &lt;blockquote&gt; tag to indicate the source of the quotation in URL form.<br />
+        Syntax-<br />
+        <code>&lt;blockquote cite=”URL”&gt; Content... &lt;/blockquote&gt;</code>
+        <br /><br />
+        Example- <br />
+        <code>
+            &lt;blockquote cite="https://en.wikipedia.org/wiki/Bird"&gt;Birds are a group of warm-blooded theropod dinosaurs constituting the class Aves, characterised by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton. Birds live worldwide and range in size from the 5.5 cm (2.2 in) bee hummingbird to the 2.8 m (9 ft 2 in) common ostrich.&lt;/blockquote&gt;
+        </code>
+        <br /><br />
+        Output- <br />
+        <blockquote cite="https://en.wikipedia.org/wiki/Bird">Birds are a group of warm-blooded theropod dinosaurs constituting the class Aves, characterised by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton. Birds live worldwide and range in size from the 5.5 cm (2.2 in) bee hummingbird to the 2.8 m (9 ft 2 in) common ostrich.</blockquote>
+    </p>
+    <br/>
+
+    <p>
+        <strong>Quotation-</strong> The &lt;q&gt; tag is used to define short or inline quotation marks in HTML, and the browsers often add quotation marks around it.<br />
+        Syntax-<br />
+        <code>&lt;q&gt; Content... &lt;/q&gt;</code>
+        <br /><br />
+        Example-<br />
+        <code>&lt;q&gt;Trust the timing of your life...&lt;/q&gt;</code>
+        <br /><br />
+        Output-<br />
+        <q>Trust the timing of your life...</q>
+    </p>
+    <br/>
+
+    <p>
+        <strong>Citation-</strong> The &lt;cite&gt; tag is used to reference the title of a creative work, such as a book, movie, or song, within the content. It provides semantic meaning to the citation.<br />
+        Syntax-<br />
+        <code>&lt;cite&gt; Content &lt;/cite&gt;</code>
+        <br /><br />
+        Example-<br />
+        <code>&lt;cite&gt;Atomic Habits&lt;/cite&gt; by James Clear</code>
+        <br /><br />
+        Output-<br />
+        <cite>Atomic Habits</cite> by James Clear
+    </p>
+    <br/>
+
+    <p>
+        <strong>Abbreviation-</strong> The &lt;abbr&gt; tag is used to define abbreviations or acronyms, i.e., you can define an optional title for full form to a specific word or sentence.<br />
+        Syntax-<br />
+        <code>&lt;abbr title=”Example”&gt; Eg. &lt;/abbr&gt;</code>
+        <br /><br />
+        Example-<br />
+        <code>&lt;p&gt;Tim Berners- Lee, a British scientist, invented the &lt;abbr title="World Wide Web"&gt;WWW&lt;/abbr&gt;
+        in 1980.&lt;/p&gt;</code>
+        <br /><br />
+        Output-<br />
+        <p>Tim Berners- Lee, a British scientist, invented the <abbr title="World Wide Web">WWW</abbr> in 1980.</p>
+    </p>
+    <br/>
+
+    <p>
+        <strong>Address-</strong> The &lt;address&gt; tag is used to define the contact information for the author or owner of a document. It often includes details such as an email address, physical address, or other relevant contact information.<br />
+        Syntax-<br />
+        <code>&lt;address&gt; Contact Details &lt;/address&gt;</code>
+        <br /><br />
+        Example-<br />
+        <code>
+            &lt;address&gt;Contact Us at: &lt;a href="mailto:info@example.com"&gt;info@example.com&lt;/a&gt;<br />
+            Visit us at: 123 Main Street, CityVille
+            &lt;/address&gt;
+        </code>
+        <br /><br />
+        Output-<br />
+        <address>
+            Contact Us at: <a href="mailto:info@example.com">info@example.com</a><br />
+            Visit us at: 123 Main Street, CityVille
+        </address>
+    </p>
+    <br/>
+
+    <p>
+        <strong>Bi- Directional Override-</strong> The &lt;bdo&gt; tag in HTML, is used to override the current text direction. It is commonly used in situations where the default text direction needs to be changed, such as displaying text from right to left.<br />
+        Syntax-<br />
+        <code>&lt;bdo&gt; Text here &lt;/bdo&gt;</code>
+        <br /><br />
+        Example-<br />
+        <code>
+            &lt;p&gt;&lt;bdo dir="rtl"&gt;This text will go right to left.&lt;/bdo&gt;&lt;/p&gt;
+        </code>
+        <br /><br />
+        Output-
+        <p><bdo dir="rtl">This text will go right to left.</bdo></p>
+    </p>
+</body>
+</html>

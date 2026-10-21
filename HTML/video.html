@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Element</title>
+</head>
+<body>
+    <h1>Video Element</h1>
+    <p>
+        The HTML &lt;video&gt; tag is used to embed a video media player into a website. To ensure proper rendering, you should offer various video formats, as not all browsers support the same ones. The path of the video file is specifies within the &lt;source>&gt;tag or the src attribute. If the browser does not support the video format, you can provide alternative text within the video tag, which will be displayed instead.<br/>
+        The three video formats supported by the &lt;video&gt; element are MP4/MPEG 4, WebM, and Ogg. Special programs, or codecs, are used for compressing and decompressing large video files. The CSS object-position property can be used to adjust the video's location within the element's frame. Use the object-fit property to modify the video's size to fit the frame.
+        <br/><br/>
+        Below are some attributes used by &lt;video&gt; element&lpar;<i>Attribute</i> &rarr; Value &rarr;Description&rpar;<br/>
+        <i>autoplay</i> &rarr; autoplay &rarr; Specifies that video will play automatically.
+        <br/>
+        <i>controls</i> &rarr; controls &rarr; Specifies that the video controls are displayed.
+        <br/>
+        <i>height</i> &rarr; pixels &rarr; Specifies the height of the video player.
+        <br/>
+        <i>width</i> &rarr; pixels &rarr; Specifies the width of the video player.
+        <br/>
+        <i>loop</i> &rarr; loop &rarr; Specifies that the video will restart automatically after it finishes.
+        <br/>
+        <i>muted</i> &rarr; muted &rarr; Specifies that the audio of the video will be muted
+        <br/>
+        <i>poster</i> &rarr; URL &rarr; Specifies that the image displayed while the video is downloading.
+        <br/>
+        <i>preload</i> &rarr; metadata, none, auto &rarr; Specifies what the author believes will provide the best user experience.
+        <br/>
+        <i>src</i> &rarr; URL &rarr; Specifies the URL of the video&apos;s file&apos;s path. 
+        <br/><br/>
+        Syntax- 
+        <pre>
+            &lt;video&gt;
+                &lt;source src="URL"&gt;
+            &lt;/video&gt;
+        </pre>
+        Example-<br/>
+        <code>
+            &lt;video width="400" height="200" controls preload="auto"&gt;<br/>
+                &lt;source src="3.mp4" type="video/mp4"/&gt;<br/>
+            &lt;/video&gt;
+        </code>
+        <br/><br/>
+        Output-<br/>
+        <video width="400" height="200" controls preload="auto">
+            <source src="3.mp4" type="video/mp4"/>
+        </video>
+    </p>
+</body>
+</html>

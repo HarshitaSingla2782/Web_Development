@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Links</h1>
+    <p>
+        HTML links, also known as hyperlinks, are used to connect one web page to another, allowing users to navigate easily between different pages, websites, or sections within the same page.<br/>
+        The &lt;a&gt; (anchor) tag creates hyperlinks, using the href attribute to specify the destination URL. It can link text, images, or buttons for navigation.
+        <br/><br/>
+        <b>Absolute Link:</b> An absolute link contains full URL (including protocol, domain, and path) to the resource. It always points to the same location, regardless of where the HTML file is located. It includes protocol (http:// or https:// ), domain name, and full path. Useful for linking to external websites or resources. It can be slower to update if the domain changes (you must update every link).
+        <br/><br/>
+        <b>Relative Link:</b> A relative link specifies the path relative to the current path&apos;s location. These are shorter and easier to maintain for internal links. It depends on the location of the HTML file. If the file structure changes, relative links may break. Ideal for internal navigation within the same website.
+        <br/><br/>
+        <b>Note:</b> <i>An unvisited link is underlined and blue. A visited link is underlined and purple. An active link is underlined and red.</i><br/><br/>
+        Syntax-<br/>
+        <code>&lt;a href=”URL”&gt; Text here &lt;/a&gt;</code>
+        <br/><br/>
+        Example-<br/>
+        <code>
+            &lt;a href="https://www.google.com/?zx=1774363602319&no_sw_cr=1"&gt;Click here to go to Google&lt;/a&gt;
+        </code>
+        <br/><br/>
+        Output-<br/>
+        <a href="https://www.google.com/?zx=1774363602319&no_sw_cr=1">Click here to go to Google</a>
+    </p>
+    <br/>
+
+    <!-- Link with target attribute -->
+    <h3>Link with Target attribute</h3>
+    <p>
+        The target attribute in &lt;a&gt; tag specifies where to open the linked document. It controls whether the link opens in the same window, a new window, or a specific frame.<br/> 
+        <i>_blank</i>: The link will open in the new browser window or tab.<br/>
+        Example-<br/>
+        <code>
+            &lt;a href="https://www.google.com/?zx=1774363602319&no_sw_cr=1" target="_blank" title="Blank"&gt;Google&lt;/a&gt;
+        </code>
+        <br/><br/>
+        Output-<br/>
+        <a href="https://www.google.com/?zx=1774363602319&no_sw_cr=1" target="_blank" title="Blank">Google</a>
+        </code>
+        <br/><br/><br/>
+
+        <i>_self</i>: The link will open in the same window or tab.<br/>
+        Example-<br/>
+        <code>
+            &lt;a href="https://www.google.com/?zx=1774363602319&no_sw_cr=1" target="_self" title="Self"&gt;Google&lt;/a&gt;
+        </code>
+        <br/><br/>
+        Output-<br/>
+        <a href="https://www.google.com/?zx=1774363602319&no_sw_cr=1" target="_self" title="Self">Google</a> 
+        <br/><br/<br/>
+
+        <i>_top</i>: The link will open in the full body of the window.<br/>
+        Example-<br/>
+        <code>
+            &lt;a href="https://www.google.com/?zx=1774363602319&no_sw_cr=1" target="_top" title="Top"&gt;Google&lt;/a&gt; 
+        </code>
+        <br/><br/>
+        Output-<br/> 
+        <a href="https://www.google.com/?zx=1774363602319&no_sw_cr=1" target="_top" title="Top">Google</a>
+        <br/><br/><br/>
+        
+        <i>_parent</i>: The link will open in the parent frame.<br/>
+        Example-<br/>
+        <code>
+            &lt;a href="https://www.google.com/?zx=1774363602319&no_sw_cr=1" target="_parent" title="Parent"&gt;Google&lt;/a&gt;
+        </code>
+        <br/><br/>
+        Output-<br/>
+        <a href="https://www.google.com/?zx=1774363602319&no_sw_cr=1" target="_parent" title="Parent">Google</a>
+    </p>
+    <br/><br/>
+
+
+    <h3>Other ways to use Links</h3>
+    <p>
+        There are other ways with which you can use the links.<br/> 
+        <i>Link to an image</i>: You can use an image as a link.<br/>
+        Example-<br/>
+        <code>
+            &lt;a href="https://en.wikipedia.org/wiki/Mountain" title="Mountains"&gt;&lt;img src="mountains.jpg" alt="Mountain" width="200" height="150"&gt;&lt;/a&gt;
+        </code>
+        <br/><br/>
+        Output-<br/>
+        <a href="https://en.wikipedia.org/wiki/Mountain" title="Mountains"><img src="mountains.jpg" alt="Mountain" width="200" height="150"></a>
+        </code>
+        <br/><br/><br/>
+
+        <i>Link to an email address</i>: You can create a link that opens the user's default email client.<br/>
+        Example-<br/>
+        <code>
+            &lt;a href="mailto:example@example.com" title="Email"&gt;Email Us&lt;/a&gt;
+        </code>
+        <br/><br/>
+        Output-<br/>
+        <a href="mailto:example@example.com" title="Email">Email Us</a>
+        <br/><br/><br/>
+
+        <i>Link to a phone number</i>: You can create a link that opens the user's default phone client.<br/>
+        Example-<br/>
+        <code>
+            &lt;a href="tel:+1234567890" title="Call"&gt;Call Us&lt;/a&gt;
+        </code>
+        <br/><br/>
+        Output-<br/> 
+        <a href="tel:+1234567890" title="Call">Call Us</a>
+        <br/><br/><br/>
+        
+        <i>Link to a button</i>: You can create a button and use it as a link.<br/>
+        Example-<br/>
+        <code>
+            &lt;a href="https://www.youtube.com/" title="Button"&gt;&lt;button&gt;YouTube&lt;/button&gt;&lt;/a&gt;
+        </code>
+        <br/><br/>
+        Output-<br/>
+        <a href="https://www.youtube.com/" title="Button"><button>YouTube</button></a>
+        <br/><br/><br/>
+        
+        <i>Link to a download file</i>: You can create a link that allows users to download a file and save it at the desired path.<br/>
+        Example-<br/>
+        <code>
+            &lt;a href="mountains.jpg" title="Download" download&gt;Download Mountains Image&lt;/a&gt;
+        </code>
+        <br/><br/>
+        Output-<br/>
+        <a href="mountains.jpg" title="Download" download>Download Mountains Image</a>
+    </p>
+</body>
+</html>

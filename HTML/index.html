@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+</head>
+<body>
+    <h1>What is Web Development?</h1>
+    <p>
+        Web development involves creating websites and wweb applications for the internet or an intranet. It encompasses a wide range of tasks, from developing simplecstatic pages to complex web applications, e-commerce platforms, and social networks. Web development can be divided into three main specializations:<br />
+        1. Front-End Development: Focuses on the part of a website that users interact with. Key technologies include- HTML, CSS, JavaScript, and various frameworks lik React, Angular, or Vue.js.e<br>
+        2. Back- End Development: Dels with server- side logic, databases, and application functionality. Common languages and frameworks include- Python(Django, Flask), Ruby(Rails) PHP, and Node.js.<br />
+        3. Full- Stack Development: Encompasses both front-end and back- end evelopment.
+    </p>
+
+    <h2>What is HTML?</h2>
+    <p>
+        HTML (Hyper Text Markup Language) is the standard language for creating web pages. It defines the structure and content of web documents using tags and attributes to format texts, embed images, create links and build interactive elements, facilitating communication between web browser and server.<br />
+        HTML is the backbone of any web page. It provides the basic structure of the page, divided into elements like headers, paragraphs, links, and images. These elements are represented by tags, which tell the browser how to display the content.<br />
+        Understanding and using HTML effectively is key to creating a well- structured web page.
+    </p>
+
+    <h3>Basic Web Page Structure</h3>
+    <img src="html_page_structure.webp" alt="Basic Web page structure" height="300" width="500" border="1" />
+    <p>
+        &lt;DOCTYPE&gt;- The first item to appear in the source code of a web page is the &lt;DOCTYPE&gt; declaration. This declaration represents the document type and helps browser to display web pages correctly. It must only appear once, at the top of the page (before any HTML tags). The declaration is not case sensitive.
+    </p>
+    <p>
+        &lt;html&gt;- Immediately after the &lt;DOCTYPE&gt; declaration, &lt;html&gt; element comes - this is the root element of the document tree and everything that follows is a descendant of that root element. It serves as the parent to both the &lt;head&gt; and &lt;body&gt; tags. The &lt;html&gt; element breaks the document into two
+        main sections- the &lt;head&gt; and the &lt;body&gt;.
+    </p>
+    <p>
+        &lt;head&gt;- The &lt;head&gt; element contains the metadata &dash; information that describes the document itself, or associates it with related resources, such as scripts, style sheets, and &lt;title&gt; describes the document&apos;s title or name.
+    </p>
+    <p>
+        &lt;body&gt;- This is where the bulk of the page is contained. Everything that you can see in the browser window is contained inside this element, including paragraphs, lists, links, images, tables and more.
+    </p>
+
+    <h3>Elements</h3>
+    <p>
+        Each element is represented by a start tag, content, and an end tag. Every HTML element begins with an opening tag and ends with a closing tag. Elements can contain text, attributes, or other nested elements. The browser reads elements to render the page visually. Proper nesting of elements ensures valid and accessible HTML. HTML
+        elements are not case- sensitive. For example, &lt;B&gt; and &lt;b&gt; are both represent bold text. However, it&apos;s a best practice to use lower case tags for consistency and readability.<br />
+        Syntax-<br />
+        <code>&lt;tagname&gt; Your Content... &lt;/tagname&gt;</code><br />
+        An opening tag indicates where the content begins: &lt;tagname&gt;. <br />
+        A closing tag indicates where the content ends: &lt;/tagname&gt;. <br />
+        The actual content resides between the opening and closing tags.
+    </p>
+    <h4>Empty Elements</h4>
+    <p>
+        HTML elements without any content i.e., that do not print anything are called empty elements. These elements are also known as self- closing tags. Empty elements do not have an ending tag. For instance, &lt;br&gt;, &lt;hr&gt;, &lt;img&gt;, &lt;link&gt; etc are HTML elements.<br />
+        Syntax-<br />
+        <code>&lt;tagname /&gt;</code>
+    </p>
+    <h4>Inline Level Elements</h4>
+    <p>
+        Inline elements do not start on a new line, take only the width of their content, and are used within block- level elements to add or style content. For example, &lt;span&gt;, &lt;a&gt;, &lt;strong&gt;, &lt;em&gt;, &lt;img&gt;, &lt;input&gt;, &lt;label&gt;, &lt;button&gt; etc are inline level elements.
+    </p>
+    <h4>Block Level Elements</h4>
+    <p>
+        Block level elements start on a new line, occupy the full available width, stack vertically, and can contain both block level and inline level elements. For example, &lt;p&gt;, &lt;div&gt;, &lt;h1&gt; to &lt;h6&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;, &lt;table&gt;, &lt;form&gt; etc are block level elements.
+    </p>
+
+    <h3>Tags</h3>
+    <p>
+        Tags in HTML are the building blocks of web pages, used to structure and format content. They guide browsers on how to display text, images, links, and other media. HTML tags, enclosed in <>, usually come in opening and closing pairs. Opening tags start elements; closing tags end them (/). Some tags like, &lt;img&gt;, and
+            &lt;br&gt; are self- closing. Essential tags include &lt;!DOCTYPE html&gt;, &lt;html&gt;, &lt;head&gt;, and &lt;body&gt;.
+    </p>
+
+    <h3>Attributes</h3>
+    <p>
+        HTML attributes are special words used within the opening tag of an HTML element. They provide additional information about HTML elements. Attributes are used to configure and adjust the element&apos;s behaviour, appearance, or functionality in a variety of ways.<br />
+        Each attribute has a name and a value, formatted as name=”value”.<br />
+        Attributes tell the browser how to render the element or how it should behave during user interactions. <br />
+        Syntax-<br />
+        <code>&lt;tagname attribute_name=”attribute_value”&gt; Content &lt;/tagname&gt;</code>
+        <h4>Components of Attribute</h4>
+        HTML attribute consists of two primary components: - <br />
+        1. Attribute_name: This is the name of attribute, which specifies what kind of additional information or property you are defining for the element. Common attributes name includes href, src, id, class etc. <br />
+        2. Attribute_value: The value is assigned to the attribute to define the specific setting or behaviour. It is always placed in quotes.
+    </p>
+
+    <h3>Comments</h3>
+    HTML comments are closed within &lt;!-- and --&gt;, and serve to annotate code for developers. They provide explanations, reminders, or instructions that are invisible on the rendered web page.<br />
+    HTML comments enhance code readability, facilitate collaboration and can be used to temporarily disable code segments. These comments serve as invisible notes within the code.<br />
+    There are 2 ways to comment in HTML. <br />
+    1. Single Line comment- The single line comment is given inside the &lt;!--Comment--&gt; tag.<br />
+    Syntax- <br />
+    <code>&lt;!-- Comment --&gt;</code><br />
+    2.Multi- Line comment- It follows the syntax of a single line comment by adding multiple lines in the comment.<br />
+    Syntax- <br />
+    <code>&lt;!-- Multi- line <br />comment --&gt;</code>
+</body>
+</html>

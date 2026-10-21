@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <p>
+        HTML forms are collections of interactive controls and various input types, such as text, numbers, email, password, radio buttons, checkboxes, buttons, etc., that collect user information. HTML forms are created by using the HTML &lt;form&gt; tag. All user input-related tags are placed inside the &lt;form&gt; tag.
+        <br/>
+        Syntax- 
+        <pre>
+            &lt;form&gt;
+                &lt;label&gt; Your label: &lt;/label&gt;
+                &lt;input type="text"&gt;
+            &lt;/form>&gt;
+        </pre>
+        Output-
+        <form>
+            <!-- The <form> element: HTML <form> tag is used to create the <form> element. This element is the container for all other form elements. The form element does not create the form; it's the container that holds the other form elements. 
+            Syntax-
+            <form> ... </form> -->
+
+            <fieldset>
+                <legend>Person:</legend>
+                <!-- The <legend> element: The <legend> element is used to provide the caption or title for the content inside the <fieldset>. It improves from accessibility by clearly describing grouped form controls, especially for screen readers. It must be the first child of the <fieldset> to ensure proper semantics and browser rendering.
+                Syntax-
+                <fieldset>
+                    <legend> Caption text </legend>
+                    Form Controls here
+                </fieldset> -->
+
+                <label for="fname">First Name: </label>
+                <!-- The <label> element: The <label> tag is used to define a label for various form elements such as <input>, <textarea>, <select>, <meter>, and <progress>. This tag enhances the usability and accessibility of web forms by associating descriptive text with form controls.
+                Syntax- 
+                <label for=”value”> Content </label> -->
+                
+                <input type="text" id="fname" name="fname"/>
+                <!-- The <input> element: The <input> tag specifies an input field where the user can enter data. It is the most important form element. The <input> element can be displayed in several ways, depending on the "type" attribute.
+                The different input types are as follows:
+                <input type="button">
+                <input type="checkbox">
+                <input type="color"> 
+                <input type="date"> 
+                <input type="datetime-local"> 
+                <input type="email">
+                <input type="file"> 
+                <input type="hidden"> 
+                <input type="image"> 
+                <input type="month"> 
+                <input type="number"> 
+                <input type="password"> 
+                <input type="radio"> 
+                <input type="range"> 
+                <input type="reset"> 
+                <input type="search"> 
+                <input type="submit"> 
+                <input type="tel"> 
+                <input type="text"> (default value) 
+                <input type="time"> 
+                <input type="url"> 
+                <input type="week"> -->
+                <br/><br/>
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname" name="lname"/>
+            </fieldset>
+            <br/><br/>
+            
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd"/>
+            <br/><br/>
+            
+            <p>Choose your fav language:</p>
+            <input type="radio" id="html" name="one"/>
+            <label for="html">HTML</label><br/>
+            <input type="radio" id="css" name="one"/>
+            <label for="css">CSS</label>
+            <br/><br/>
+            
+            <p>Choose your fav Anime:</p>
+            <input type="checkbox" id="p1" name="demon" value="demonslayer"/>
+            <label for="p1">Demon Slayer</label><br/>
+            <input type="checkbox" id="p2" name="piece" value="onepiece"/>
+            <label for="p2">One Piece</label>
+            <br/><br/>
+            
+            <label for="color">Choose your fav Color: </label>
+            <input type="color" id="color"/>
+            <br/><br/>
+            
+            <label for="dob">DOB: </label>
+            <input type="date" id="dob"/>
+            <br/><br/>
+            
+            <label for="schedule">Schedule: </label>
+            <input type="datetime-local" id="schedule"/>
+            <br/><br/>
+            
+            <label for="mail">E-mail Address: </label>
+            <input type="email" id="mail"/>
+            <br/><br/>
+            
+            <label for="upload">Upload your document: </label>
+            <input type="file" id="upload"/>
+            <br/><br/>
+            <label for="cars">Select a Car: </label>
+            <select id="cars" size="3" multiple>
+                <option>Select your Car</option>
+                <option>Verna</option>
+                <option>BMW</option>
+                <option>Audi</option>
+                <option>Tesla</option>
+                <option>Ciaz</option>
+            </select>
+            <br/><br/>
+            
+            <textarea name="message" rows="5" cols="26">Give your message here..</textarea>
+            <br/><br/>
+            <input type="submit" value="Submit"/>
+            <button type="button">Click Me</button>
+            <input type="reset" value="Reset"/>
+            <br/><br/>
+            <label>Hidden data: </label>
+            <input type="hidden"/>
+        </form>
+    </p>
+</body>
+</html>

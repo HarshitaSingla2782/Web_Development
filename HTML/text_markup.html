@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Markup Tags</title>
+</head>
+<body>
+    <h1>Text Markup Tags</h1>
+
+    <h2>Headings- &lt;h1&gt; to &lt;h6&gt;</h2>
+    <p>
+        Headings are used to define the titles and subtitles of sections on a web page. They help organise the content and create a structure that is easy to navigate. <br />
+        Proper use of headings enhances readability by organizing content into clear sections. Search engines utilize headings to understand page structure, aiding in SEO.<br />
+        HTML offers six levels of heading tags, each serving a different purpose in structuring your content.<br />
+        &lt;h1&gt;- Main Heading (Largest): Represents the primary focus of the page, usually used for the main title. Use only one &lt;h1&gt; tag per page for best SEO practices. Make it clear to both users and search engines what the main topic is.<br />
+        &lt;h2&gt;- Subheadings: Ideal for dividing the content into major sections. If the content has further subsections, use &lt;h3&gt; to create a logical flow.<br />
+        &lt;h3&gt; to &lt;h6&gt;- Smaller headings: These heading levels are used for finer subdivisions, gradually decreasing in size and importance.<br />
+        &lt;h3&gt; is used for subsection under &lt;h2&gt;, while &lt;h4&gt; to &lt;h6&gt; are used for additional, less important subdivisions.<br />
+        &lt;h6&gt; defines the least important heading.<br />
+        Syntax-<br />
+        <code>&lt;h2&gt; Content.. &lt;/h2&gt;</code>
+        <br /><br />
+        Example-<br />
+        <code>
+            &lt;h1&gt; Main Heading &lt;/h1&gt;<br />
+            &lt;h2&gt; Subheading &lt;/h2&gt;<br />
+            &lt;h3&gt; Sub-subheading &lt;/h3&gt;<br />
+            &lt;h4&gt; Sub-sub-subheading &lt;/h4&gt;<br />
+            &lt;h5&gt; Sub-sub-sub-subheading &lt;/h5&gt;<br />
+            &lt;h6&gt; Sub-sub-sub-sub-subheading &lt;/h6&gt;<br />
+        </code>
+        <br />Output-<br />
+        <h1> Main Heading </h1>
+        <h2> Subheading </h2>
+        <h3> Sub-subheading </h3>
+        <h4> Sub-sub-subheading </h4>
+        <h5> Sub-sub-sub-subheading </h5>
+        <h6> Sub-sub-sub-sub-subheading </h6>
+    </p>
+
+    <h2>Paragraphs- &lt;p&gt;</h2>
+    <p>
+        HTML paragraphs are block- level elements that are used to structure and format text content on a web page. A paragraph is basically a collection of words and punctuation together. It allows us to organize and present textual information into coherent and readable manner. The HTML &lt;p&gt; tag is used to create paragraph element.<br />
+        Paragraphs typically create space above and below the text, separating it from surrounding text.<br />
+        Syntax- <br />
+        <code>&lt;p&gt; Content.. &lt;/p&gt;</code>
+        <br /><br/>
+        Example-<br />
+        <code>
+            &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt iste ipsam officia in ipsum voluptatum commodi perspiciatis nobis ad.&lt;/p&gt;
+        </code>
+        <br/><br />
+        Output-
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt iste ipsam officia in ipsum voluptatum commodi perspiciatis nobis ad.</p>
+    </p>
+
+    <h2>Line Breaks- &lt;br&gt;</h2>
+    <p>
+        It allows you to break text into new line without starting a new paragraph or block. This is helpful when you need to format text in a specific way, like in poems or addresses. For adding a line break, insert the &lt;br&gt; tag where the text should continue the next line.<br />
+        To insert a line break, simply place the &lt;br&gt; tag at the point in your content where you want the text to start on a new line. It is a self- closing tag.<br />
+        Syntax- <br />
+        <code>&lt;br/&gt;</code>
+        <br /><br/>
+        Example-<br />
+        <code>
+            &lt;p&gt;Lorem ipsum dolor sit &lt;br/&gt;amet consectetur adipisicing elit. Atque nesciunt iste ipsam officia in ipsum voluptatum commodi perspiciatis nobis ad.&lt;/p&gt;
+        </code>
+        <br /><br/>
+        Output-
+        <p>Lorem ipsum dolor sit <br />amet consectetur adipisicing elit. Atque nesciunt iste ipsam officia in ipsum voluptatum commodi perspiciatis nobis ad.</p>
+    </p>
+
+    <h2>Horizontal Rule- &lt;hr&gt;</h2>
+    <p>
+        The &lt;hr&gt; tag represents a thematic break between content, often displayed as a horizontal line. It is a self- closing element and is used to visually or semantically separate sections of content.<br />
+        Syntax- <br />
+        <code>&lt;hr/&gt;</code>
+        <br /><br/>
+        Example-<br />
+        <code>
+            &lt;p&gt;Lorem ipsum dolor sit &lt;hr/&gt;amet consectetur adipisicing elit. Atque nesciunt iste ipsam officia in ipsum voluptatum commodi perspiciatis nobis ad.&lt;/p&gt;
+        </code>
+        <br /><br/>
+        Output-
+        <p>Lorem ipsum dolor sit <hr />amet consectetur adipisicing elit. Atque nesciunt iste ipsam officia in ipsum voluptatum commodi perspiciatis nobis ad.</p>
+    </p>
+
+    <h2>Preformatted Text- &lt;pre&gt;</h2>
+    <p>
+        The &lt;pre&gt; tag defines preformatted text. Text in a &lt;pre&gt; element is displayed in a fixed width font, and the text preserves both spaces and line breaks. The text will be displayed exactly as displayed in the HTML source code. This is useful when you must display code, formatted text, and preserving text layout.<br />
+        Syntax-<br />
+        <code>&lt;pre&gt; Content... &lt;/pre&gt;</code>
+        <br /><br/>
+        Example-<br />
+        <code>
+            &lt;pre&gt;Lorem ipsum dolor sit<br />
+            amet consectetur adipisicing elit. Atque nesciunt<br />
+            iste ipsam officia in ipsum voluptatum commodi<br />
+            perspiciatis nobis ad.&lt;/pre&gt;
+        </code>
+        <br /><br/>
+        Output-
+        <pre>Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Atque nesciunt 
+        iste ipsam officia in ipsum voluptatum commodi 
+        perspiciatis nobis ad.</pre>
+    </p>
+</body>
+</html>
