@@ -1,0 +1,36 @@
+/* section4 starting */
+#off-banner{
+     background-image: url(Banners/b2.jpg);
+     background-size: cover;
+     height: 50vh;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+}
+
+#off-banner h4{
+     color:#eaebf0;
+     font-size: 40px;
+}
+
+#off-banner h2{
+     color: #eaebf0;
+     padding: 15px 15px ;
+     font-size: 29px;
+}
+
+button.normal{
+     font-weight: 600px;
+     font-size: 14px;
+     padding: 15px 30px;
+       border-radius: 4px;
+     color: #000;
+     background-color: #fff;
+     outline: none;
+     border: none;
+     transition: 0.2s;
+     cursor: pointer;
+}
+/* section4 ending */

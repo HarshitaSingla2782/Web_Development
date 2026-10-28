@@ -1,0 +1,135 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+     font-size: 50px;
+     line-height: 64px;
+     color: #222;
+}
+
+h2{
+     font-size: 46px;
+     line-height: 54px;
+     color: #222;
+}
+
+h4{
+     font-size: 20px;
+     color: #222;
+}
+
+h6{
+     font-size: 12px;
+     font-weight: 700;
+}
+
+p{
+     font-size: 16px;
+     color: #465b52;
+     margin: 15px 0 20px 0;
+}
+/* HEADER START */
+#header{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: whitesmoke;
+     padding: 20px 88px;
+     box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+     z-index: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+}
+.header-list{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.header-list-nav ul{
+     display: flex;
+}
+.header-list-nav ul li{
+     list-style-type: none;
+     padding: 0 20px;
+     position: relative;
+}
+.header-list-nav ul li a{
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: 600;
+     color: #1a1a1a;
+     transition: 0.3s ease;
+}
+.header-list-nav ul a:hover, 
+.header-list-nav ul a.active{
+     color: #088178;
+     content: "";
+}
+.header-logo img{
+     mix-blend-mode: multiply;
+     height: 70px;
+     width: 70px;
+}
+.header-list-icon a{
+     color: #1a1a1a;
+     padding: 20px;
+     transition: 0.3s ease;
+}
+.header-list-icon a:hover{
+     color: #088178;
+}
+.header-list-nav ul li a:hover::after{
+     content: "";
+     width: 60%;
+     height: 2px;
+     background: #088178;
+     position: absolute;
+     bottom: -4px;
+     left: 20px;
+}
+/* HEADER END */
+
+/* FOOTER START */
+#footer{
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+     padding: 75px;
+     background-color: #ececec;
+}
+
+#footer p, #footer a{
+     text-decoration: none;
+     color: rgb(109, 109, 109);
+}
+
+#footer a:hover{
+     color: #000c0c;
+}
+
+#footer .about a{
+     display: block;
+     padding: 8px 0;
+     width: 270px;
+}
+
+#footer .myaccount a{
+     display: block;
+     padding: 8px 0;
+     width: 220px;
+}
+
+#footer .download img{
+     border: 1px solid #08817969;
+     border-radius: 7px;
+}
+
+#footer .contact img{
+     mix-blend-mode: darken;
+}
+/* FOOTER END */

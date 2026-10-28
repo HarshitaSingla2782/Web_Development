@@ -1,0 +1,47 @@
+/* introduction to the planet store (heading) */
+#intro{
+     margin-left: 30px;
+     margin-top: 30px;
+     padding-bottom: 7px;
+}
+/* introduction to the planet store (content) */
+#introtops{
+     margin-left: 51px;
+     margin-right: 51px;
+     line-height: 1.4;
+     padding-bottom: 25px;
+}
+
+/* why choose planet store, how our planet store works, our vision (headings) */
+.other{
+     margin-left: 51px;
+     margin-right: 51px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
+
+/* why choose planet store, how our planet store works (content) */
+.order1{
+     margin-left: 61px;
+     margin-right: 61px;
+     line-height: 1.6;
+     padding-bottom: 16px;
+     text-align: justify;
+}
+
+/* why choose planet store, how our planet store works (ordered list) */
+div > ol> li{
+     padding-left: 14px;
+     padding-top: 14px;
+     padding-right: 14px;
+     padding-bottom: 3px;
+}
+
+/* Our vision content */
+#ourvision{
+     margin-left: 51px;
+     margin-right: 51px;
+     line-height: 1.4;
+     padding-bottom: 16px;
+     text-align: justify;
+}

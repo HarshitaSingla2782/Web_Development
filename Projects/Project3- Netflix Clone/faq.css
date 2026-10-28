@@ -1,0 +1,60 @@
+/* SECTION5 START */
+.faq{
+     /* whole faq section */
+     background-color: black;
+     color: rgb(255,255,255);
+     padding: 110px 0;
+}
+
+.faq h2{
+     /* "Frequently Asked Questions" text */
+     text-align: center;
+     font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+     font-weight: 900;
+     font-size: 48px;
+     font-style: normal;
+     line-height: normal;
+}
+
+/* all the faq questions with '+' sign */
+.faqbox{
+     margin: 12px auto;
+     width: 100%;
+     max-width: 800px;
+     font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+}
+.faqbox span{
+     /* quetions */
+     display: flex;
+     align-items: center;
+     padding: 33px;
+     font-size: 22px;
+     font-weight: 400;
+     background: #303030;
+     margin-bottom: 2px;
+     cursor: pointer;
+     position: relative;
+}
+.faqbox span::after{
+     /* '+' sign */
+     content: '+';
+     font-size: 34px;
+     position: absolute;
+     right: 20px;
+}
+
+/* "Email address" in faq section */
+.faq input{
+     padding: 7px 101px 8px 14px;
+     color: white;
+     font-size: 12px;
+     border-radius: 4px;
+     background-color: rgba(23, 23, 23, 0.9);
+     border: 1px solid rgba(246, 238, 238, 0.5);
+     height: 40px;
+     width: 300px;
+}
+.faq input[type="text"]{
+     font-size: medium;
+}
+/* SECTION5 END */

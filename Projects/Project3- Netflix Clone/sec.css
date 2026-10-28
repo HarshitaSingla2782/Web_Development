@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+/* headings & content(text) of section1 | section2| section3 | section4 */
+.first .four{
+     /* Enjoy on your TV | Download your shows to watch offline | Watch everywhere | Create profiles for kids*/
+     font-size: 37px;
+     color: rgb(255,255,255);
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     font-family: 'Martel Sans', sans-serif
+}
+.first .five{
+     /* Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more. | Save your favourites easily and always have something to watch. | Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.. | Send children on adventures with their favourite characters in a space made just for them—free with your membership. */
+     font-size: 17px;
+     color: rgb(255,255,255);
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     font-family: 'Martel Sans', sans-serif
+}
+
+
+/* SECTION1 START */
+.first{
+     color: rgb(255,255,255);
+     display: flex;
+     max-width: 70vw;
+     justify-content: center;
+     margin: auto;
+     align-items: center;
+}
+
+.secImg{
+     position: relative;
+}
+
+.secImg img{
+     height: 400px;
+     width: 500px;
+     position: relative;
+     z-index: 10;
+     left: 0;
+}
+.secImg video{
+     position: absolute;
+     top: 51px;
+     right: 0;
+     height: 300px;
+     width: 435px;
+}
+
+section > div{
+     display: flex;
+     flex-direction: column;
+}
+/* SECTION1 END */
+
+
+/* SECTION2 START */
+.second .secImg .strangerthingsbox{
+     /* mobile photo ke niche wala pura box jisme stranger things + uski photo + download animation h */
+     color: rgb(255,255,255);
+     text-align: center;
+     overflow: hidden;
+     position: absolute;
+     left: 78px;
+     bottom: 8%;
+     margin: 0 auto;
+     background: rgb(0,0,0);
+     display: flex;
+     align-items: center;
+     width: 58%;
+     min-width: 15rem;
+     border: 2px solid rgba(128,128,128,0.7);
+     box-shadow: 0 0 2em 0 rgb(0,0,0);
+     border-radius: 0.75rem;
+     z-index: 10;
+     padding: 0.35rem 0.75rem;
+}
+
+.second .secImg .strangerthingsbox .strange{
+     /* jiska text "stranger things" aur "downloading" h */
+     color: rgb(255,255,255);
+     text-align: left;
+     margin: 14px;
+}
+
+.second .secImg .strangerthingsbox .strange .stranger{
+     /* jiska text sirf "stranger things" h */
+     text-align: center;
+     color: rgb(255,255,255);
+     font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     font-style: normal;
+     line-height: normal;
+}
+
+.second .secImg div img{
+     /* stranger things photo*/
+     width: 4rem;
+     height: 5rem;
+}
+
+.second .secImg .strangerthingsbox .strange .downloading{
+     /* jiska text sirf "downloading" h */
+     font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+     text-align: center;
+     font-weight: 400;
+     color: #0071eb;
+     font-size: 0.875rem;
+}
+.second .secImg .strangerthingsbox .downloadanimate{
+     /* jisme download button ke saath loading bhi dikha rha h */
+     color: rgb(255,255,255);
+     text-align: center;
+     width: 3rem;
+     height: 3rem;
+     margin: 14px;
+     outline: 2px solid rgb(0,0,0);
+    display: block;
+    background: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif') center center no-repeat;
+    background-size: 100%;
+}
+/* SECTION2 END */
+
+
+/* SECTION3 START */
+.third .secImg img{
+     height: 400px;
+     width: 500px;
+     position: relative;
+     z-index: 10;
+     left: 90px;
+}
+
+.third .secImg video{
+     position: absolute;
+     top: 51px;
+     right: 0;
+     height: 200px;
+     width: 330px;
+}
+/* SECTION3 END */
+
+
+/* SECTION4 START */
+/* NO STYLING REQUIRED....  STYLING HAS BEEN ALREADY DONE */
+/* SECTION4 END */
+
+

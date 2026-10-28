@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keyword" content="Add recipies of your choice" />
+    <meta name="author" content="Harshita Singla" />
+    <title>Recipie Book | Add Recipies</title>
+    <style>
+      header {
+        text-align: center;
+      }
+      footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>RECIPIE BOOK</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="index.html">Categories</a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="#">Add Recipie</a>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <h2>Add New Recipies</h2>
+      <p>
+        Here, you can add a new recipie with all its details such as recipie name, image, ingredients, steps, tips, difficulty level and time required.
+      </p>
+      <br />
+      <form>
+        <fieldset>
+          <legend><strong>Basic Information</strong></legend>
+          <label for="name">Recipie name: </label>
+          <input type="text" id="name" name="name" placeholder="Enter recipie name" required/>
+          <br /><br /><br />
+          <label for="image">Recipie Image: </label>
+          <input type="file" id="image" name="image" />
+          <br /><br /><br />
+          <label>Category: </label>
+          <input type="radio" id="breakfast" name="category" />
+          <label for="breakfast">Breakfast</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+
+          <input type="radio" id="lunch" name="category" />
+          <label for="lunch">Lunch</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+
+          <input type="radio" id="dinner" name="category" />
+          <label for="dinner">Dinner</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+
+          <input type="radio" id="desert" name="category" />
+          <label for="desert">Desert</label>
+          <br /><br /><br />
+          <label for="time">Cooking Time (minutes): </label>
+          <input type="number" id="time" name="time" />
+          <br /><br /><br />
+          <label for="difficulty">Difficulty: </label>
+          <select name="difficulty" id="difficulty">
+            <option>Easy</option>
+            <option>Medium</option>
+            <option>Hard</option>
+          </select>
+          <br /><br /><br />
+          <label for="servings">Servings: </label>
+          <input type="number" id="servings" name="servings" />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend><strong>Ingredients</strong></legend>
+          <textarea rows="8" cols="60" placeholder="Write ingredients here..."></textarea>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend><strong>Steps</strong></legend>
+          <textarea rows="10" cols="60" placeholder="Write steps for the recipie here..."></textarea>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend><strong>Extra Details</strong></legend>
+          <label for="tips">Tips/ Notes</label><br />
+          <textarea id="tips" rows="5" cols="60" placeholder="Add any tip hereto make the recipie more delecious."></textarea>
+          <br /><br /><br />
+          <label>Nutrition Level: </label>
+          <meter value="6" min="0" max="10"></meter>
+          <br /><br /><br />
+          <label> Completion Progress: </label>
+          <progress value="70" max="100"></progress>
+        </fieldset>
+        <br /><br /><br /><br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset Form</button>
+      </form>
+      <br />
+
+      <section>
+        <details>
+          <summary>Need help?</summary>
+          <p>
+            Fill all required fields carefully before submittin the recipie.
+          </p>
+        </details>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <a href="#">Privacy Policy</a>
+      &nbsp;&nbsp;&nbsp;
+      <a href="#">Terms & Conditions</a>
+      <p>
+        &copy; 2026 Recipie Book |
+        <span>Phone: <a href="tel:+918882958826">8882958826</a></span>
+        <!-- &nbsp;&nbsp;&nbsp; -->
+        |
+        <span>Email: <a href="mailto:harshitasingla070802@gmail.com">harshitasingla070802@gmail.com</a></span>
+      </p>
+    </footer>
+  </body>
+</html>

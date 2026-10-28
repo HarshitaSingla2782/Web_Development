@@ -1,0 +1,67 @@
+/* hctus= heading contact us */
+#hctus{
+     margin-left: 30px;
+     margin-top: 30px;
+     padding-bottom: 10px;
+}
+
+/* pcontentctus= paragraph content contact us */
+#pcontentctus{
+     margin-left: 51px;
+     padding-bottom: 16px;
+}
+
+/* contactforminfo= contact for more info (email, phone, address, follow, message > headings) */
+.contactforminfo{
+     margin-left: 51px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     font-size: 18px;
+}
+
+/* contactforminfo= contact for more info (email, phone, follow > Details) */
+.contact-methods .contact-method p{
+     margin-left: 51px;
+     padding-bottom: 16px;
+}
+
+/* contactforminfo= contact for more info (address > Details) */
+.contact-methods .contact-method address{
+     margin-left: 51px;
+     padding-bottom: 16px;
+     font-size: 17px;
+}
+
+/*  contactforminfo= contact for more info (follow > images social media) */ 
+.contact-method a img{
+     margin-left: 51px;
+     margin-bottom: 53px;
+     height: 60px;
+}
+
+/* contactforminfo= contact for more info (send message > Details) */
+/* form */
+ form{
+     margin-left: 51px;
+     padding-bottom: 10px;
+     font-size: 17px;
+}
+
+input{
+     padding: 3px;
+}
+
+label{
+     align-items: center;
+}
+
+button{
+     padding: 8px 16px;
+     background-color: #0fad56;
+     text-decoration: none;
+     border: 0px;
+     border-color: #0fad56;
+     border-radius: 2px;
+     margin-top: 16px;
+     color: #fff;
+}

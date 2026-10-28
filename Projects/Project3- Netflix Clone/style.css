@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins', sans-serif;
+}
+
+body{
+     /* background color of the whole page */
+     background-color: black;
+}
+
+.main{
+     /* BACKGROUND IMAGE */
+     background-image: url("Assets/Images/back.jpg");
+     background-position: center center;
+     background-size: max(1200px, 100vw);
+     background-repeat: no-repeat;
+     height: 650px;
+     position: relative;
+}
+
+.main .box{
+     /* SECTION0 WHOLE BACKGROUND */
+     height: 650px;
+     width: 100%;
+     opacity: 0.66;
+     background-color: black;
+     position: absolute;
+     top: 0;
+}
+
+/* NAVIGATION START */
+nav{
+     max-width: 80vw;
+     margin: auto;
+     justify-content: space-between;
+     align-items: center;
+     display: flex;
+     height: 100px;
+}
+
+nav img{
+     color: red;
+     width: 160px;
+     position: relative;
+     z-index: 10;
+}
+
+nav button{
+     position: relative;
+     z-index: 10;
+}
+
+/* language sign */
+div>svg{
+     color: rgb(255, 255, 255);
+     letter-spacing: normal;
+     line-height: 100%;
+     text-align: left;
+     box-sizing: border-box;
+     position: absolute;
+     z-index: 1;
+     width: 1rem;
+     height: 1rem;
+     font-size: 1rem;
+     right: auto;
+}
+/* NAVIGATION END */
+
+
+/* SECTION0 START */
+.hero{
+     display: flex;
+     height: calc(100% - 100px);
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     color: white;
+     position: relative;
+     font-family: 'Martel Sans', sans-serif;
+     gap: 20px;
+     padding: 0 30px;
+}
+.hero .one{
+     /* FOR "Unlimited movies, TV shows and more" */
+     font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+     color: rgb(255, 255, 255);
+     font-weight: 900;
+     font-size: 45px;
+     line-height: normal;
+     font-style: normal;
+     text-align: center;
+}
+.hero .two{
+     /* FOR "Watch anywhere. Cancel anytime." */
+     font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+     font-size: 24px;
+     font-weight: 400;
+     font-style: normal;
+     line-height: normal;
+     color: rgb(255, 255, 255);
+     text-align: center;
+}
+
+.hero .three{
+     /* FOR "Ready to watch? Enter your email to create or restart your membership." */
+     font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+     font-size: 20px;
+     font-weight: 400;
+     font-style: normal;
+     line-height: 30px;
+     color: rgb(255, 255, 255);
+     text-align: center;
+}
+
+/* buttons of navigation and section1 respectively */
+/* "Language & Sign In" */
+select, .btn-red-sm{
+     margin: 6px;
+}
+
+select{
+     /* "Language" */
+     z-index: 10;
+     position: relative;
+     padding: 3px 8px;
+     font-weight: 400;
+     background-color: rgba(248, 243, 243, 0.021);
+     border: 1px solid white;
+     border-radius: 4px;
+     color: white;
+     height: 31px;
+     width: 90px;
+}
+select option{
+     /* "Language options" */
+     color: black;
+}
+
+.btn{
+     /* "Language & Sign In" */
+     padding: 3px 8px;
+     font-weight: 400;
+     background-color: rgba(248, 243, 243, 0.021);
+     border: 1px solid white;
+     border-radius: 4px;
+     color: white;
+     cursor: pointer;
+
+}
+.btn-red-sm{
+     /* "Sign In" */
+     background-color: red;
+     color: rgb(255, 255, 255);
+     border: 0;
+     height: 30px;
+     width: 70px;
+     font-style: normal;
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 14px;
+}
+.btn-red{
+     /* "Get Started" */
+     background-color: red;
+     color: rgb(255, 255, 255);
+     padding: 6px 30px;
+     border-radius: 4px;
+     border: 0;
+     font-weight: 500;
+     font-size: 24px;
+     font-style: normal;
+     line-height: 24px;
+     height: 60px;
+     cursor: pointer;
+}
+div>button>svg{
+     /* "Get Started" */
+     z-index: 10;
+     color: rgb(255, 255, 255);
+     letter-spacing: normal;
+     line-height: 1;
+}
+
+.hero-buttons{
+     /* "Email address & Get Started" */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 16px;
+}
+
+.main input{
+     /* "Email address" */
+     padding: 7px 101px 8px 14px;
+     color: white;
+     font-size: 12px;
+     border-radius: 4px;
+     background-color: rgba(23, 23, 23, 0.9);
+     border: 1px solid rgba(246, 238, 238, 0.5);
+     height: 40px;
+     width: 300px;
+}
+.main input[type="text"]{
+     font-size: medium;
+}
+
+/* SECTION0 END */
+
+
+/* SECTION DIVIDER LINE */
+.separation{
+     height: 9px;
+     background-color: rgb(46, 44, 44);
+     position: relative;
+     z-index: 20;
+}
+
+
+/* FOOTER SECTION START */
+footer{
+     color: rgb(255, 255, 255);
+     margin: auto;
+     max-width: 60vw;
+     padding: 14px;
+}
+footer .questions{
+     font-weight: 400;
+     font-size: 16px;
+     font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+     padding: 20px 0;
+}
+footer .questions a{
+     color: rgb(255, 255, 255);
+}
+
+.footer{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     color: rgb(255, 255, 255);
+}
+
+.footer a{
+     color: rgb(255, 255, 255);
+}
+
+.footer-item{
+     display: flex;
+     flex-direction: column;
+     gap: 18px;
+     font-weight: 400;
+     font-size: 14px;
+     font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+}
+
+/* language sign */
+footer .footer .lang>svg{
+     color: rgb(255, 255, 255);
+     letter-spacing: normal;
+     line-height: 100%;
+     text-align: left;
+     box-sizing: border-box;
+     position: absolute;
+     z-index: 1;
+     width: 1rem;
+     height: 1rem;
+     font-size: 1rem;
+     right: auto;
+}
+footer .footer .lang{
+     padding: 20px 0;
+}
+.ni{
+     /* text 'Netflix India' */
+     font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+     color: #a19f9f;
+}
+/* FOOTER SECTION END */

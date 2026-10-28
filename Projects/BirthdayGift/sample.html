@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Celebration</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fdf6f0;
+            color: #333;
+        }
+        nav {
+            background-color: #ff8c94;
+            display: flex;
+            justify-content: space-around;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #fdf6f0;
+        }
+        header {
+            text-align: center;
+            padding: 3rem 1rem;
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .card {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+            transition: transform 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+        .card:hover {
+            transform: scale(1.02);
+        }
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .recipe {
+            background-color: #fffaf0;
+            border-left: 5px solid #ff8c94;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+        }
+        .recipe img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #ff8c94;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#wishes">Wishes</a>
+        <a href="#food">Food</a>
+        <a href="#fashion">Fashion</a>
+        <a href="#about">About Us</a>
+    </nav>
+
+    <header id="home">
+        <h1>🎉 Happy Birthday Sarah! 🎂</h1>
+        <p>Welcome to Sarah's special birthday website filled with love, delicious food, and fabulous fashion!</p>
+        <img src="https://images.unsplash.com/photo-1603570419987-98ecf3b4a1d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Birthday Celebration" style="width: 100%; max-width: 600px; border-radius: 10px; margin-top: 1rem;">
+    </header>
+
+    <section id="wishes">
+        <h2>Wishes from Family & Friends</h2>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1536824099567-46e7d7a5e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Mom & Dad">
+            <div>
+                <div class="card-title">Mom & Dad</div>
+                <p>"Happy Birthday, our dearest Sarah! May your year be filled with love, laughter, and success. We love you!"</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1598514982681-17ce2c3e7d5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Emma">
+            <div>
+                <div class="card-title">Best Friend - Emma</div>
+                <p>"Wishing you an amazing birthday and a fantastic year ahead. Cheers to many more adventures together!"</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Jack">
+            <div>
+                <div class="card-title">Brother - Jack</div>
+                <p>"Happy Birthday Sis! Keep being awesome and inspiring everyone around you. Lots of love!"</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="food">
+        <h2>Delicious Food to Celebrate 🎂🍰🍴</h2>
+
+        <div class="recipe">
+            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Chocolate Fudge Cake">
+            <h3>Chocolate Fudge Cake Recipe</h3>
+            <p><strong>Description:</strong> A rich, moist chocolate fudge cake perfect for birthdays and special occasions!</p>
+            <h4>Ingredients:</h4>
+            <ul>
+                <li>200g plain flour</li>
+                <li>200g caster sugar</li>
+                <li>200g unsalted butter</li>
+                <li>4 eggs</li>
+                <li>50g cocoa powder</li>
+                <li>1 tsp baking powder</li>
+                <li>1 tsp vanilla extract</li>
+                <li>100g dark chocolate (melted)</li>
+            </ul>
+            <h4>Instructions:</h4>
+            <ol>
+                <li>Preheat oven to 180°C (350°F). Grease and line a cake tin.</li>
+                <li>Mix butter and sugar until light and fluffy.</li>
+                <li>Add eggs one at a time, beating well.</li>
+                <li>Fold in flour, baking powder, cocoa powder, and vanilla.</li>
+                <li>Stir in melted chocolate.</li>
+                <li>Pour mixture into the tin and bake for 30-35 minutes.</li>
+                <li>Allow to cool, then frost with your favorite chocolate icing. Enjoy!</li>
+            </ol>
+        </div>
+
+    </section>
+
+    <section id="fashion">
+        <h2>Fashion & Accessories ✨👗👜</h2>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1520975922323-7f7aa3c0aa42?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Floral Birthday Dress">
+            <div>
+                <div class="card-title">Floral Birthday Dress</div>
+                <p>A beautiful, flowy floral dress perfect for a birthday brunch or dinner. Lightweight and elegant!</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1622444721473-9f1fdf4b47cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Sparkling Clutch">
+            <div>
+                <div class="card-title">Sparkling Clutch</div>
+                <p>Small, chic clutch with sparkling embellishments. Adds a touch of glam to any outfit.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1561808840-21c7c38d3a9a?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Statement Necklace">
+            <div>
+                <div class="card-title">Statement Necklace</div>
+                <p>A bold statement necklace with colorful stones. Ideal for adding personality to a simple outfit.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1520975562758-32c5d1d7b7e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Birthday Crown">
+            <div>
+                <div class="card-title">Birthday Crown</div>
+                <p>Gold birthday crown with crystals. Because every birthday girl deserves to feel like royalty!</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>This website was lovingly created by Sarah's family and friends to celebrate her special day. Every year, we come together to share our best wishes, recipes, fashion ideas, and precious memories. We hope this little corner of the internet brings joy to Sarah and everyone who visits!</p>
+        <img src="https://images.unsplash.com/photo-1597300885308-672d3e230a9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="About Us" style="width: 100%; max-width: 600px; border-radius: 10px; margin-top: 1rem;">
+    </section>
+
+    <footer>
+        &copy; 2025 Birthday Celebration | Made with love ❤️
+    </footer>
+
+</body>
+</html>
